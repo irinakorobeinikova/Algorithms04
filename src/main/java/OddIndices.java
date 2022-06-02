@@ -9,7 +9,7 @@ public class OddIndices {
      * Expected Result =  {590, 985, 68}
      */
 
-    public int[] OddIndicesAlgorithm(int[] array) {
+    public int[] oddIndicesAlgorithm(int[] array) {
         if (array.length > 0) {
 
             int[] result = new int[array.length / 2];
