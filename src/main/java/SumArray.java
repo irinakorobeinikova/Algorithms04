@@ -22,12 +22,4 @@ public class SumArray {
 
         return 0;
     }
-
-
-
-
-
-
-
-
 }
