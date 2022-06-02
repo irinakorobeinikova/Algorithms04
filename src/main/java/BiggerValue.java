@@ -12,16 +12,19 @@ public class BiggerValue {
 
     public int biggerValueAlgorithm(int num1, int num2) {
 
-        //int maxNum = (int) Math.max(Math.max(num1, num2));
+        if (num1 != num2) {
+            //int maxNum = (int) Math.max(Math.max(num1, num2));
+            int maxNum;
 
-        int maxNum;
+            if (num1 > num2) {
+                maxNum = num1;
+            } else {
+                maxNum = num2;
+            }
 
-        if (num1 > num2) {
-            maxNum = num1;
-        } else {
-            maxNum = num2;
+            return maxNum;
         }
 
-        return maxNum;
+        return 0;
     }
 }
