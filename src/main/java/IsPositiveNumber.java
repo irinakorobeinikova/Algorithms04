@@ -8,7 +8,7 @@ public class IsPositiveNumber {
      * Check the method on the numbers 555, 0 and -555.
      */
 
-    public boolean isPositiveNumber(int num) {
+    public boolean isPositiveNumberAlgorithm(int num) {
         if (num >= 0) {
             return true;
         } else {
