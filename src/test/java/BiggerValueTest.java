@@ -66,13 +66,29 @@ public class BiggerValueTest {
         Assertions.assertEquals(expectedResult, actualResult);
     }
 
+    @Order(5)
+    @Test
+    public void testBiggerValueZeroAndNumber() {
+        int number1 = 0;
+        int number2 = -3333;
+        int expectedResult = 0;
 
+        BiggerValue as = new BiggerValue();
+        int actualResult = as.biggerValueAlgorithm(number1, number2);
 
+        Assertions.assertEquals(expectedResult, actualResult);
+    }
 
+    @Order(6)
+    @Test
+    public void testBiggerValueZeroAndZero() {
+        int number1 = 0;
+        int number2 = 0;
+        int expectedResult = 0;
 
+        BiggerValue as = new BiggerValue();
+        int actualResult = as.biggerValueAlgorithm(number1, number2);
 
-
-
-
-
+        Assertions.assertEquals(expectedResult, actualResult);
+    }
 }
