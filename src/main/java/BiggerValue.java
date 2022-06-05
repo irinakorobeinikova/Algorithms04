@@ -13,7 +13,6 @@ public class BiggerValue {
     public int biggerValueAlgorithm(int num1, int num2) {
 
         if (num1 != num2) {
-            //int maxNum = (int) Math.max(Math.max(num1, num2));
             int maxNum;
 
             if (num1 > num2) {

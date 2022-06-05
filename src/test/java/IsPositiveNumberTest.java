@@ -48,6 +48,31 @@ public class IsPositiveNumberTest {
         Assertions.assertEquals(expectedResult, actualResult);
     }
 
+    @Order(4)
+    @Test
+    public void testisPositiveNumberMinValue() {
+        int num = Integer.MIN_VALUE;
+        boolean expectedResult = false;
+
+        IsPositiveNumber as = new IsPositiveNumber();
+        boolean actualResult = as.isPositiveNumberAlgorithm(num);
+
+        Assertions.assertEquals(expectedResult, actualResult);
+    }
+
+    @Order(5)
+    @Test
+    public void testisPositiveNumberMaxValue() {
+        int num = Integer.MAX_VALUE;
+        boolean expectedResult = true;
+
+        IsPositiveNumber as = new IsPositiveNumber();
+        boolean actualResult = as.isPositiveNumberAlgorithm(num);
+
+        Assertions.assertEquals(expectedResult, actualResult);
+    }
+
+
 
 
 }
