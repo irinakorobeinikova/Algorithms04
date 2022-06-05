@@ -3,7 +3,7 @@ public class AreNumbersEqual {
     /** Write an algorithm AreNumbersEqual that takes any 2 int numbers as input
      * and returns 0 if the numbers are equal,
      * -1, if the first number is less than the second,
-     * 1, if the first number is greater than the second.
+     * 1, if the first number is larger than the second.
      *
      * Test Data:
      * 89, 89
