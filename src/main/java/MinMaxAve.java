@@ -36,12 +36,4 @@ public class MinMaxAve {
 
         return result;
     }
-
-
-
-
-
-
-
-
 }
