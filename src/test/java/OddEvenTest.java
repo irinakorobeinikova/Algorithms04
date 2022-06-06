@@ -4,7 +4,8 @@ import org.junit.jupiter.api.Test;
 
 public class OddEvenTest {
 
-    /** Create an OddEven algorithm that takes an integer as input,
+    /** Task 1
+     * Create an OddEven algorithm that takes an integer as input,
      * returns "Odd" if the number is odd,
      * and "Even" if the number is even.
      * In all other cases, the result will be “Undefined”.

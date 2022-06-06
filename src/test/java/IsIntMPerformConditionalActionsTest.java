@@ -4,7 +4,8 @@ import org.junit.jupiter.api.Test;
 
 public class IsIntMPerformConditionalActionsTest {
 
-    /** Given an integer M perform the following conditional actions:
+    /** Task 7
+     *  Given an integer M perform the following conditional actions:
      *  If M is multiple of 3 and 5 then return "Good Number".
      *  If M is only multiple of 3 and not of 5 then return "Bad Number".
      *  If M is only multiple of 5 and not of 3 then return "Poor Number".

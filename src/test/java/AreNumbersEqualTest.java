@@ -4,7 +4,8 @@ import org.junit.jupiter.api.Test;
 
 public class AreNumbersEqualTest {
 
-    /** Write an algorithm AreNumbersEqual that takes any 2 int numbers as input
+    /** Task 6
+     * Write an algorithm AreNumbersEqual that takes any 2 int numbers as input
      * and returns 0 if the numbers are equal,
      * -1, if the first number is less than the second,
      * 1, if the first number is larger than the second.
