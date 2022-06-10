@@ -33,9 +33,13 @@ public class PeakElement {
                     result[count] = array[i];
                     count++;
                     i = i + 1;
-                } else  {
+                } else {
                     i = i + 1;
                 }
+            } else if (array[i] > array[i - 1] && array[i] > array[i + 1]) {
+                result[count] = array[i];
+                count++;
+                i = i + 1;
             } else if (i == array.length - 1) {
                 if (array[array.length - 1] > array[array.length - 2]) {
                     result[count] = array[array.length - 1];
